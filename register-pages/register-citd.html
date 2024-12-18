@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Code In The Dark-Register</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <a href="../home.html" class="logo"><img id="imglogo" src="../images/logo.png" alt="logo"></a>
+
+        <nav class="navigation">
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="../faq.html" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="../rules.html" class="nav-link">Rules</a></li>
+                <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a class="btnLogin-popup nav-link" href="../register.html">Register</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <img src="../icons/menu.svg" alt="menu">
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+
+        <div class="register">
+
+                <h1 id="event-name">Code In The Dark</h1>
+
+                <div class="input-box">
+                    <input type="text" id="Participant1" placeholder="Participant's Name" required>
+                    <i class="fa fa-user"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="College" placeholder="College Name" required>
+                    <i class="fa fa-university"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <i class="fa fa-envelope"></i>
+                </div>
+
+                <div class="tandc">
+                    <label><input type="checkbox" required>I acknowledge the <a href="../rules.html">rules</a> and agree to
+                        cooperate.</label>
+                </div>
+
+                <div class="tandc">
+                    <label><input type="checkbox" required> I agree to the <a href="../t&c.html">Terms &
+                            Conditions.</a></label>
+
+                </div>
+
+                <button id="previous" class="btn">Previous</button>
+                <button onclick="submitForm()" class="btn">Submit</button>
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.facebook.com/BurhaniCollege/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/collegeburhani?lang=en"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/burhanicollege_official/?hl=en"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@burhanicollege7361"><i class="fa fa-youtube"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="../contact.html">Contact us</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../faq.html">FAQ</a></li>
+                    <li><a href="../privacy.html">Privacy Policy</a></li>
+                    <li><a href="../t&c.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Copyright © 2024 yo momma - All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
