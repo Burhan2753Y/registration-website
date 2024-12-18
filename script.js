@@ -163,8 +163,7 @@ fetch(url)
   participant4ob.value="";  // Handle the response data
   })
   .catch(error => {
-    console.error("Error:", error);  
-    alert("Form Not Submitted")// Handle any errors
+    console.error("Error:", error);  // Handle any errors
   });
 
 
